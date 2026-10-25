@@ -1,18 +1,19 @@
-# Created using wingetcreate 1.6.1.0
+# Automatically updated by the winget bot at 2024/Jul/10
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
 
 PackageIdentifier: GiulioSorrentino.numeronesfortuneinavalonia
 PackageVersion: 2.0.3
-InstallerType: inno
+InstallerType: wix
 Dependencies:
   PackageDependencies:
   - PackageIdentifier: Microsoft.DotNet.DesktopRuntime.8
+ProductCode: '{90D24925-7418-48AD-9950-676C4F83DB20}'
 Installers:
 - Architecture: x64
-  InstallerUrl: https://github.com/numerunix/numfortune.avalonia.new/releases/download/2.0.3/numfortune.avalonia-2.0.3-amd64.exe
-  InstallerSha256: D3F0B3E7BB715E95CCECE5B49EF6EB5917302065DC5F0495C73AD37CF8AC7D83
+  InstallerUrl: https://github.com/numerunix/numfortune.avalonia.new/releases/download/2.0.3/numfortune.Avalonia-2.0.3-amd64.msi
+  InstallerSha256: EAAE0CA4967F044FE47C2128FC734BBD0ACDC1BFF0390971F44D187712979920
 - Architecture: arm64
-  InstallerUrl: https://github.com/numerunix/numfortune.avalonia.new/releases/download/2.0.3/numfortune.avalonia-2.0.3-arm64.exe
-  InstallerSha256: 77C40A0569461AEA52BEB3470AACF8C7AB1A8986B92D5D2B7E754C8CF7FCEA71
+  InstallerUrl: https://github.com/numerunix/numfortune.avalonia.new/releases/download/2.0.3/numfortune.Avalonia-2.0.3-arm64.msi
+  InstallerSha256: DC6EE11353178611DD3B260FBAF461919BEE2632F3C5E0FF884F2EAB21BF779D
 ManifestType: installer
 ManifestVersion: 1.6.0

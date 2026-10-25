@@ -1,19 +1,25 @@
-# Automatically updated by the winget bot at 2024/Feb/23
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+# Automatically updated by the winget bot at 2026/Oct/16
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: DigitalExtremes.Warframe
 PackageVersion: 1.0.0
-MinimumOSVersion: 10.0.0.0
+InstallerLocale: en-US
 InstallerType: wix
-Scope: machine
+Scope: user
 InstallModes:
 - interactive
 - silent
 UpgradeBehavior: install
+ProductCode: '{18CF147C-0B64-4406-BFF5-AEFAE89DDE31}'
+ReleaseDate: 2024-12-14
+AppsAndFeaturesEntries:
+- ProductCode: '{18CF147C-0B64-4406-BFF5-AEFAE89DDE31}'
+  UpgradeCode: '{7645476E-F04C-4F61-8C3E-4CFC6A64B816}'
+InstallationMetadata:
+  DefaultInstallLocation: '%LocalAppData%\Warframe'
 Installers:
 - Architecture: x64
   InstallerUrl: https://content.warframe.com/dl/Warframe.msi
-  InstallerSha256: C64AC94434177CE5DE4F17BF4ED26A74211BB2CF48C520988E617844BADA3F84
-  ProductCode: '{B27F2D95-F0BA-4237-9C67-4547F2CF852F}'
+  InstallerSha256: 9F94B5E3094B3F3CB01709D7166FF5205A8CA221865DE0370E12981C0ED3363D
 ManifestType: installer
-ManifestVersion: 1.5.0
+ManifestVersion: 1.28.0
